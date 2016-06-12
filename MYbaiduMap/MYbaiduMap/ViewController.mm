@@ -97,6 +97,7 @@
 {
     [mapView viewWillDisappear];
     mapView.delegate=nil;
+    NSLog(@"wozuogexiangmuceshi");
 }
 - (BMKAnnotationView *)mapView:(BMKMapView *)mapView viewForAnnotation:(id <BMKAnnotation>)annotation
 {
