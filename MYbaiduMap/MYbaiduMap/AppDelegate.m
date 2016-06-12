@@ -24,6 +24,9 @@
     }
 //    navigationControl=[[UINavigationController alloc]init];
 //    self.window.rootViewController=navigationControl;
+    
+    
+    
     return YES;
 }
 

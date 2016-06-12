@@ -10,7 +10,7 @@
 #import "Global.h"
 @interface ViewController ()<BMKMapViewDelegate,CLLocationManagerDelegate>
 {
-    BMKMapView* mapView;
+    BMKMapView* mapView;//mapView 的视图
     CLLocationManager *_cllocation;
     //BMKClusterManager *_clusterManager;//点聚合管理类
 }
@@ -70,9 +70,6 @@
         // 是否分段纹理绘制（突出显示），默认YES
         //加载分段纹理图片，必须否则不能进行分段纹理绘制
         polylineView.strokeColor = [[UIColor purpleColor] colorWithAlphaComponent:1];
-        
-         
-         
         
         return polylineView;
     }
